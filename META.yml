@@ -1,5 +1,5 @@
 ---
-abstract: TODO
+abstract: 
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:

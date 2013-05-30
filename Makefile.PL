@@ -6,9 +6,11 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'TODO';
+abstract 'Event Reactor.';
 license 'unknown';
 name 'EventReactor';
+requires 'Socket' => 0;
+requires 'Carp' => 0;
 resources 'repository' => 'git@github.com:tupinek/event_reactor.git';
 tests_recursive;
 version '0.0001';
